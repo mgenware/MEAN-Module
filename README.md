@@ -33,8 +33,8 @@ MEAN Module (TypeScript):
 
 MEAN Module (FlowTyped):
 
-[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-blue.svg)](https://github.com/mgenware/MEAN-Module)
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-orange.svg)](https://github.com/mgenware/MEAN-Module)
 
 ```markdown
-[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-blue.svg)](https://github.com/mgenware/MEAN-Module)
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-orange.svg)](https://github.com/mgenware/MEAN-Module)
 ```
