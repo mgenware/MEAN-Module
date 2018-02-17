@@ -38,3 +38,19 @@ MEAN Module (FlowTyped):
 ```markdown
 [![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-orange.svg)](https://github.com/mgenware/MEAN-Module)
 ```
+
+MEAN Module (TypeScript) (Flat style):
+
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
+
+```markdown
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
+```
+
+MEAN Module (FlowTyped) (Flat style):
+
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-orange.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
+
+```markdown
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-Flow-orange.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
+```
