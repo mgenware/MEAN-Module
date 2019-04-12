@@ -1,23 +1,25 @@
 # MEAN Node.js Modules
-MEAN Modules are Node.js modules with the following characteristics: 
+MEAN Modules are Node.js modules with the following characteristics (see [node-mean-template](https://github.com/mgenware/node-mean-template) for a boilerplate project): 
 
-* **Only necessary code files are uploaded to npm registry (with 2 exceptions: `package.json` and `README.md`)**.
-* **All uploaded JavaScript files are minified**.
-* **Must come with type definitions. (currently either TypeScript or FlowTyped)**.
-* Some commonly used files are allowed, for example: `.gitignore`, `.npmignore`.
-* Source map files are allowed but not required.
+|                             |                                                         |
+|-----------------------------|---------------------------------------------------------|
+| JavaScript files            | ✅ Required<br/>🚙 Should be minified                          |
+| TypeScript definition files | ✅ Required                                              |
+| Source map files            | 🚙 Should be included                                    |
+| Common files                | 😀 OK, e.g. `package.json`, `README.md`, `.gitignore`... |
+| Test files                  | ❌ Should not be included                                |
+| Other files                 | ❌ Should not be included unless necessary               |
 
 A typical MEAN module downloaded from npm registry is like:
 ```
 node_modules/fx58-node
-├── .gitignore              [commonly used file]
-├── README.md               [README is required]
+├── .gitignore              [Common files]
+├── README.md               [Common files]
 ├── dist
-│   └── lib
-│       ├── main.d.ts       [type definition files are required]
-│       ├── main.js         [minified code files]
-│       └── main.js.map     [source map files](optional)
-└── package.json            [package.json is required]
+│   ├── main.d.ts           [Type definition files]
+│   ├── main.js             [Minified code files]
+│   └── main.js.map         [Source map files]
+└── package.json            [Common files]
 ```
 
 ## Badges
